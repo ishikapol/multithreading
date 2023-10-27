@@ -1,7 +1,7 @@
 # HTTP Server Project
 
 ## Project Overview
-This assignment involves building an HTTP server that listens for incoming connections on a specified port, processes HTTP requests, and sends appropriate responses.
+This project involves building an HTTP server that listens for incoming connections on a specified port, processes HTTP requests, and sends appropriate responses.
 
 ## httpserver.c
 `httpserver.c` is the main program file for the HTTP server. It initializes a socket, binds it to a specified port, listens for incoming connections, and handles GET and PUT requests. It also ensures the server does not crash, even when dealing with malformed or malicious requests.
